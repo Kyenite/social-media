@@ -59,41 +59,23 @@
         <div class="container-fluid w-100 m-0 p-0">
             <nav class="navbar navbar-expand-sm" style="height: 60px; width: 100vw; background-color: lightblue;">
                 <ul class="navbar" id="navBarIcons">
-                    <li class="navbar nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-house" style="font-size: 24px;"></i></a></li>
+                    <li class="navbar nav-item"><a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house" style="font-size: 24px;"></i></a></li>
                     <li class="navbar nav-item"><a href="friendlist.html" class="nav-link"><i class="fa-solid fa-user-group" style="font-size: 24px;"></i></a></li>
                     <li class="navbar nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-message" style="font-size: 24px;"></i></a></li>
-                    <li class="navbar nav-item"><a href="notification.html" class="nav-link"><i class="fa-solid fa-bell" style="font-size: 24px;"></i></a></li>
+                    <li class="navbar nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-bell" style="font-size: 24px;"></i></a></li>
                     <li class="navbar nav-item"><a href="#" class="nav-link"><div style="border-radius: 50%; border: 2px solid; width: 28px; height: 28px; text-align: center; overflow: hidden;"><i class="fa-solid fa-user" style="font-size: 24px;"></i></div></a></li>
                 </ul>
             </nav>
         </div>
         <div class="container-fluid m-auto p-0 w-100 overflow-x-hidden" id="postsContainer" style="max-height: calc(100vh - 128px); overflow-y: auto;">
             <div class="container-fluid m-auto p-0 overflow-x-hidden container-max-400" style="max-height: 100%;">
+                <h6>Notifications</h6>
                 <div class="card" id="contentCard">
-                    <div class="d-flex">
-                        <img class="rounded-circle m-2" src="images/profile.jpg" alt="" width="40">
-                        <div class="container-fluid mt- m-0 p-0">
-                            <i style="font-size: small;">Updated his profile picture</i>
-                            <p class="card-text mt-0" id="fullname"><b>Kenneth R. Medel</b></p>
+                    <div class="d-flex pt-2" style="margin-left: 10px;">
+                        <div class="rounded-5" style="margin-right: 10px; font-size: 22px;">
+                            <i class="fa-solid fa-heart mt-2 pt-0" style="color: rgb(252, 70, 70);"></i>
                         </div>
-                    </div>
-                    <p class="m-2" id="caption" style="font-size: small;">Sample Caption</p>
-                    <img class="card card-img" src="images/profile.jpg" alt="">
-                    <div class="d-block">
-                        <div class="align-content-start d-flex justify-content-between">
-                            <div class="d-inline-flex m-2">
-                                <i class="fa-solid fa-heart m-1 p-0" style="color: rgb(252, 70, 70);"></i>
-                                <p class="p-0 m-0" id="likeCount">705</p>
-                            </div>
-                            <div class="d-inline-flex m-2">
-                                <p class="p-0 m-0" id="shareCount">0</p>
-                                <i class="fa-solid fa-share m-1 p-0" style="color: grey;"></i>
-                            </div>
-                        </div>
-                        <div class="btn-group align-content-center w-100 p-2">
-                            <button type="button" class="btn btn-secondary"><i class="fa-regular fa-heart"></i></button>
-                            <button type="button" class="btn btn-secondary"><i class="fa-solid fa-share"></i></button>
-                        </div>
+                        <p class="pt-2">Someone liked your <b class="text-info">Profile.</b></p>
                     </div>
                 </div>
             </div>
